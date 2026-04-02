@@ -1,0 +1,42 @@
+# Citation
+
+## BibTeX
+
+If you use this project in your research, please cite:
+
+```bibtex
+@software{chinese_license_plate_recognition,
+  author = {eecn},
+  title = {Chinese License Plate Recognition},
+  year = {2024},
+  url = {https://github.com/eecn/chinese_license_plate_recognition},
+  note = {A CRNN-based license plate recognition system with Ultralytics-style engineering}
+}
+```
+
+## Related Papers
+
+### CRNN Architecture
+```bibtex
+@article{shi2016crnn,
+  title={An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition},
+  author={Shi, Baoguang and Bai, Xiang and Yao, Chun},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={38},
+  number={11},
+  pages={2369--2374},
+  year={2016},
+  publisher={IEEE}
+}
+```
+
+### CTC Loss
+```bibtex
+@article{graves2006ctc,
+  title={Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks},
+  author={Graves, Alex and Fern{\'a}ndez, Santiago and Gomez, Faustino and Schmidhuber, J{\"u}rgen},
+  journal={Proceedings of the 23rd International Conference on Machine Learning},
+  pages={369--376},
+  year={2006}
+}
+```

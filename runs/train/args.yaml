@@ -1,0 +1,21 @@
+train:
+  data_dir: ./license_plate_data
+  train_label: ./license_plate_data/train.txt
+  val_label: ./license_plate_data/val.txt
+  batch_size: 256
+  epochs: 100
+  lr: 0.001
+  weight_decay: 1.0e-05
+  warmup_epochs: 5
+  num_workers: 4
+  device: cuda
+  save_dir: ./runs
+  exp_name: train
+  save_interval: 5
+model:
+  small: true
+  rnn_hidden: 256
+  rnn_layers: 2
+  img_height: 32
+  max_width: 128
+  num_chars: 73
