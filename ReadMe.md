@@ -11,6 +11,8 @@
 
 🔗 **项目地址**: [https://github.com/eecn/chinese_license_plate_recognition](https://github.com/eecn/chinese_license_plate_recognition)
 
+> ⚠️ **免责声明**: 本项目及提供的数据集仅供学习和研究使用，不得用于任何商业用途。数据来源包括公开互联网资源和作者标注数据。
+
 ## ✨ 特性亮点
 
 - **🎯 Ultralytics 风格**: 参考 YOLO 系列的工程化设计，输出 `results.csv`、`args.yaml`、训练曲线等标准产物
@@ -60,7 +62,7 @@ chinese_license_plate_recognition/
 
 ```bash
 # 克隆项目
-git clone https://github.com/YOUR_USERNAME/chinese_license_plate_recognition.git
+git clone https://github.com/eecn/chinese_license_plate_recognition.git
 cd chinese_license_plate_recognition
 
 # 创建虚拟环境（推荐）
@@ -82,7 +84,21 @@ pip install -r requirements.txt
 
 ### 2. 数据准备
 
-#### 数据集格式要求
+#### 📥 数据集获取
+
+**重要提示**: 由于数据集文件较大，无法通过 GitHub 分发。如需获取数据集，请通过以下方式联系：
+
+- **邮箱**: [联系邮箱](mailto:你的实际邮箱)  
+- **邮件主题**: 申请车牌识别数据集 - [你的姓名/单位]  
+- **用途说明**: 请简要说明使用目的（如学术研究、学习交流等）
+
+**数据集信息**:
+- **图像数量**: 81,720 张
+- **格式**: JPG 图像 + TXT 标注文件
+
+> ⚠️ **免责声明**: 本数据集仅供学习和研究使用，不得用于任何商业用途。
+
+#### 数据格式要求
 
 - **图像命名**: `车牌号_序号.jpg`（如：`京 A12345_0.jpg`）
 - **图像内容**: 单排车牌（双排车牌需预先上下拼接）
@@ -93,7 +109,7 @@ pip install -r requirements.txt
 license_plate_data/images/京A12345_0.jpg 京 A12345
 license_plate_data/images/沪 B67890_1.jpg 沪 B67890
 ```
-可下载 [license_plate_data.tar.bz2](https://github.com/eecn/chinese_license_plate_recognition/releases/download/v1.0/license_plate_data.tar.bz2) 解压数据集```  tar - xjvf license_plate_data.tar.bz2 ```
+license_plate_data共81720张车牌数据，覆盖所有标签字符。该数据集为互联网和我自己标注的一些数据，如有需要请通过邮箱联系我获取数据。
 
 #### 数据预处理
 
