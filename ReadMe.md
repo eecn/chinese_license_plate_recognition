@@ -434,7 +434,7 @@ git push origin feature/amazing-feature
 
 如有问题请提 Issue，或通过以下方式联系：
 
-- **Email**: your.email@example.com
+- **Email**: wangkechn@163.com
 - **Issues**: [GitHub Issues](https://github.com/eecn/chinese_license_plate_recognition/issues)
 - **仓库**: [https://github.com/eecn/chinese_license_plate_recognition](https://github.com/eecn/chinese_license_plate_recognition)
 
